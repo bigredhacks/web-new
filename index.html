@@ -26,7 +26,25 @@
   <link rel="stylesheet" href="styles/font-awesome-4.7.0/css/font-awesome.min.css">
   <link href="/styles/normalize.min.css">
   <link href="styles/main.css" rel="stylesheet">
-
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function () {
+      var scroll_pos = 0;
+      var body = document.body,
+        html = document.documentElement;
+      var height = Math.max(body.scrollHeight, body.offsetHeight,
+        html.clientHeight, html.scrollHeight, html.offsetHeight);
+      $(document).scroll(function () {
+        scroll_pos = $(this).scrollTop();
+        if (scroll_pos > (height * 0.79)) {
+          $("#navbar a").css('color', 'black');
+        } else {
+          $("#navbar a").css('color', 'white');
+        }
+      });
+    });
+  </script>
 </head>
 
 <body>
