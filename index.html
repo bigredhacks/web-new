@@ -35,17 +35,23 @@
         html = document.documentElement;
       var height = Math.max(body.scrollHeight, body.offsetHeight,
         html.clientHeight, html.scrollHeight, html.offsetHeight);
+      var top1 = $('#sponsors').offset().top - 25;
       $(document).scroll(function () {
+        $(window).on('resize', function () {
+          top1 = $('#sponsors').offset().top - 25;
+        });
         scroll_pos = $(this).scrollTop();
-        if (scroll_pos > (height * 0.79)) {
-          $("#navbar a").css('color', 'black');
+        if (scroll_pos > top1) {
+          $("#navbar a").css('color', '#14184b');
         } else {
           $("#navbar a").css('color', 'white');
         }
       });
     });
+
   </script>
 </head>
+
 
 <body>
   <div id="navbar" style="font-size: 20px">
