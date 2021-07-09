@@ -48,19 +48,55 @@
         }
       });
     });
-
   </script>
+  <!-- <script>
+    (function () {
+      var previousScroll = 0;
+
+      $(window).scroll(function () {
+        var currentScroll = $(this).scrollTop();
+        if (currentScroll != previousScroll) {
+          $("#navbar").css('background-color', 'rgba(223, 59, 31, 0.7');
+        } else {
+          $("#navbar").css('background-color', 'rgba(223, 59, 31, 0');
+        }
+        previousScroll = currentScroll;
+      });
+    }());
+    $(window).bind('mousewheel', function (event) {
+      if (event.originalEvent.wheelDelta != 0) {
+        $("#navbar").css('background-color', 'rgba(223, 59, 31, 1)');
+      }
+      else {
+        $("#navbar").css('background-color', 'rgba(223, 59, 31, 0)');
+      }
+    });
+    $(window).on('mousewheel', function () {
+      $("#navbar").css('background-color', 'rgba(223, 59, 31, 0.7');
+    });
+    $(window).off('mousewheel', function () {
+      $("#navbar").css('background-color', 'rgba(223, 59, 31, 0');
+    });
+  </script> -->
+  <!-- <script>
+    $(document).ready(function () {
+      var path = window.location.href;
+      var loc = '#navbar .' + path.substring(path.lastIndexOf('#') + 1);
+      console.log(loc);
+      $(loc).css('text-decoration', 'underline');
+    });
+  </script> -->
 </head>
 
 
 <body>
   <div id="navbar" style="font-size: 20px">
-    <a href="#hero" class="navbar-item">Home</a>
-    <a href="#about" class="navbar-item">About</a>
-    <a href="#schedule" class="navbar-item">Schedule</a>
-    <a href="#faq" class="navbar-item">FAQ</a>
-    <a href="#sponsors" class="navbar-item">Sponsors</a>
-    <a href=" https://apply.bigredhacks.com/" class="navbar-item is-bold">Apply</a>
+    <a href="#hero" class="navbar-item hero">Home</a>
+    <a href="#about" class="navbar-item about">About</a>
+    <a href="#schedule" class="navbar-item schedule">Schedule</a>
+    <a href="#faq" class="navbar-item faq">FAQ</a>
+    <a href="#sponsors" class="navbar-item sponsors">Sponsors</a>
+    <a href=" https://apply.bigredhacks.com/" class="navbar-item is-bold apply">Apply</a>
   </div>
 
   <section id="hero"></section>
