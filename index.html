@@ -31,6 +31,11 @@
   <script>
     $(document).ready(function () {
       var scroll_pos = 0;
+      var path = window.location.href;
+      // var currentHash = "#initial_hash";
+      // var top = window.pageYOffset;
+      // var distance = top - $(this).offset().top;
+      // var hash = $(this).attr('href');
       var body = document.body,
         html = document.documentElement;
       var height = Math.max(body.scrollHeight, body.offsetHeight,
@@ -40,7 +45,37 @@
         $(window).on('resize', function () {
           top1 = $('#sponsors').offset().top - 25;
         });
+        ///////////////
+
+        // $(document).scroll(function () {
+        //   $('.anchor_tags').each(function () {
+        //     top = window.pageYOffset;
+        //     distance = top - $(this).offset().top;
+        //     hash = $(this).attr('href');
+        //     // 30 is an arbitrary padding choice, 
+        //     // if you want a precise check then use distance===0
+        //     if (distance < 30 && distance > -30 && currentHash != hash) {
+        //       window.location.hash = (hash);
+        //       currentHash = hash;
+        //     }
+        //   });
+        // });
+        //////////////////
+
+
+        ///////
         scroll_pos = $(this).scrollTop();
+        path = window.location.href;
+        loc = '#navbar .' + path.substring(path.lastIndexOf('#') + 1);
+
+        var all_items = document.getElementsByClassName('navbar-item');
+        for (i = 0; i < all_items.length; i++) {
+          temp = (all_items[i].text.toLowerCase() == 'home') ? "hero" : all_items[i].text;
+          loc2 = ("#navbar ." + temp).toLowerCase();
+          $(loc2).css('text-decoration', 'none');
+        }
+        $(loc).css('text-decoration', 'underline');
+
         if (scroll_pos > top1) {
           $("#navbar a").css('color', '#14184b');
         } else {
@@ -49,6 +84,24 @@
       });
     });
   </script>
+  <!-- <script>
+    $(function () {
+      var currentHash = "#initial_hash";
+      $(document).scroll(function () {
+        $('.anchor_tags').each(function () {
+          var top = window.pageYOffset;
+          var distance = top - $(this).offset().top;
+          var hash = $(this).attr('href');
+          // 30 is an arbitrary padding choice, 
+          // if you want a precise check then use distance===0
+          if (distance < 30 && distance > -30 && currentHash != hash) {
+            window.location.hash = (hash);
+            currentHash = hash;
+          }
+        });
+      });
+    });
+  </script> -->
   <!-- <script>
     (function () {
       var previousScroll = 0;
@@ -84,6 +137,12 @@
       var loc = '#navbar .' + path.substring(path.lastIndexOf('#') + 1);
       console.log(loc);
       $(loc).css('text-decoration', 'underline');
+    });
+  </script> -->
+  <!-- <script>
+    $("a").click(function () {
+      $("a.active-menu").removeClass("active-menu");
+      $(this).addClass("active-menu");
     });
   </script> -->
 </head>
