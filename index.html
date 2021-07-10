@@ -32,43 +32,22 @@
     $(document).ready(function () {
       var scroll_pos = 0;
       var path = window.location.href;
-      // var currentHash = "#initial_hash";
-      // var top = window.pageYOffset;
-      // var distance = top - $(this).offset().top;
-      // var hash = $(this).attr('href');
       var body = document.body,
         html = document.documentElement;
       var height = Math.max(body.scrollHeight, body.offsetHeight,
         html.clientHeight, html.scrollHeight, html.offsetHeight);
       var top1 = $('#sponsors').offset().top - 25;
+      var all_items = document.getElementsByClassName('navbar-item');
       $(document).scroll(function () {
         $(window).on('resize', function () {
           top1 = $('#sponsors').offset().top - 25;
         });
-        ///////////////
 
-        // $(document).scroll(function () {
-        //   $('.anchor_tags').each(function () {
-        //     top = window.pageYOffset;
-        //     distance = top - $(this).offset().top;
-        //     hash = $(this).attr('href');
-        //     // 30 is an arbitrary padding choice, 
-        //     // if you want a precise check then use distance===0
-        //     if (distance < 30 && distance > -30 && currentHash != hash) {
-        //       window.location.hash = (hash);
-        //       currentHash = hash;
-        //     }
-        //   });
-        // });
-        //////////////////
-
-
-        ///////
         scroll_pos = $(this).scrollTop();
         path = window.location.href;
         loc = '#navbar .' + path.substring(path.lastIndexOf('#') + 1);
 
-        var all_items = document.getElementsByClassName('navbar-item');
+        // underline the page you're on
         for (i = 0; i < all_items.length; i++) {
           temp = (all_items[i].text.toLowerCase() == 'home') ? "hero" : all_items[i].text;
           loc2 = ("#navbar ." + temp).toLowerCase();
@@ -76,6 +55,7 @@
         }
         $(loc).css('text-decoration', 'underline');
 
+        // change navbar color depending on background
         if (scroll_pos > top1) {
           $("#navbar a").css('color', '#14184b');
         } else {
@@ -84,72 +64,11 @@
       });
     });
   </script>
-  <!-- <script>
-    $(function () {
-      var currentHash = "#initial_hash";
-      $(document).scroll(function () {
-        $('.anchor_tags').each(function () {
-          var top = window.pageYOffset;
-          var distance = top - $(this).offset().top;
-          var hash = $(this).attr('href');
-          // 30 is an arbitrary padding choice, 
-          // if you want a precise check then use distance===0
-          if (distance < 30 && distance > -30 && currentHash != hash) {
-            window.location.hash = (hash);
-            currentHash = hash;
-          }
-        });
-      });
-    });
-  </script> -->
-  <!-- <script>
-    (function () {
-      var previousScroll = 0;
-
-      $(window).scroll(function () {
-        var currentScroll = $(this).scrollTop();
-        if (currentScroll != previousScroll) {
-          $("#navbar").css('background-color', 'rgba(223, 59, 31, 0.7');
-        } else {
-          $("#navbar").css('background-color', 'rgba(223, 59, 31, 0');
-        }
-        previousScroll = currentScroll;
-      });
-    }());
-    $(window).bind('mousewheel', function (event) {
-      if (event.originalEvent.wheelDelta != 0) {
-        $("#navbar").css('background-color', 'rgba(223, 59, 31, 1)');
-      }
-      else {
-        $("#navbar").css('background-color', 'rgba(223, 59, 31, 0)');
-      }
-    });
-    $(window).on('mousewheel', function () {
-      $("#navbar").css('background-color', 'rgba(223, 59, 31, 0.7');
-    });
-    $(window).off('mousewheel', function () {
-      $("#navbar").css('background-color', 'rgba(223, 59, 31, 0');
-    });
-  </script> -->
-  <!-- <script>
-    $(document).ready(function () {
-      var path = window.location.href;
-      var loc = '#navbar .' + path.substring(path.lastIndexOf('#') + 1);
-      console.log(loc);
-      $(loc).css('text-decoration', 'underline');
-    });
-  </script> -->
-  <!-- <script>
-    $("a").click(function () {
-      $("a.active-menu").removeClass("active-menu");
-      $(this).addClass("active-menu");
-    });
-  </script> -->
 </head>
 
 
 <body>
-  <div id="navbar" style="font-size: 20px">
+  <div id="navbar">
     <a href="#hero" class="navbar-item hero">Home</a>
     <a href="#about" class="navbar-item about">About</a>
     <a href="#schedule" class="navbar-item schedule">Schedule</a>

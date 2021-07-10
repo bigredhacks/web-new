@@ -51,7 +51,7 @@ h2 {
   width: 100%;
   z-index: 10;
   margin-top: 0.5rem;
-  font-size: 1.05rem;
+  font-size: 20px;
 }
 #navbar a {
   color: #fff;
@@ -201,6 +201,22 @@ h2 {
   .faq__container .inner, .about__content .inner {
     width: 100% !important;
     margin: 0 !important;
+  }
+}
+@media only screen and (max-width: 32em) {
+  #navbar {
+    font-size: 16px;
+  }
+  #navbar a {
+    padding: 14px 10px;
+  }
+}
+@media only screen and (max-width: 25em) {
+  #navbar {
+    font-size: 12px;
+  }
+  #navbar a {
+    padding: 14px 10px;
   }
 }
 
