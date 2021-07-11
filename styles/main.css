@@ -203,9 +203,9 @@ h2 {
     margin: 0 !important;
   }
 }
-@media only screen and (max-width: 32em) {
+@media only screen and (max-width: 36em) {
   #navbar {
-    font-size: 16px;
+    font-size: 18px;
   }
   #navbar a {
     padding: 14px 10px;
