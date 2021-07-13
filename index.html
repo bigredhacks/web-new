@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="BigRed//Hacks - Be a part of something big.">
   <meta name="author" content="BigRed//Hacks">
-  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="shortcut icon" href="assets/favicon.ico">
   <meta property="og:site_name" content="BigRed//Hacks">
   <meta property="og:description"
     content="BigRed//Hacks - Be a part of something big. Happening at Cornell University on September x-x, 20xx.">
@@ -28,87 +28,6 @@
   <link href="styles/main.css" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
-  <script>
-    $(document).ready(function () {
-      var scroll_pos = 0;
-      var path = window.location.href;
-      var body = document.body,
-        html = document.documentElement;
-      var height = Math.max(body.scrollHeight, body.offsetHeight,
-        html.clientHeight, html.scrollHeight, html.offsetHeight);
-      var top_about = $('#about').offset().top - 25;
-      var top_schedule = $('#schedule').offset().top - 25;
-      var top_faq = $('#faq').offset().top - 25;
-      var top_sponsors = $('#sponsors').offset().top - 25;
-      var all_items = document.getElementsByClassName('navbar-item');
-
-      $(document).scroll(function () {
-        $(window).on('resize', function () {
-          top_about = $('#about').offset().top - 25;
-          top_schedule = $('#schedule').offset().top - 25;
-          top_faq = $('#faq').offset().top - 25;
-          top_sponsors = $('#sponsors').offset().top - 25;
-        });
-
-        scroll_pos = $(this).scrollTop();
-        path = window.location.href;
-        loc = '#navbar .' + path.substring(path.lastIndexOf('#') + 1);
-
-        //underline page you are on
-        for (i = 0; i < all_items.length; i++) {
-          temp = (all_items[i].text.toLowerCase() == 'home') ? "hero" : all_items[i].text;
-          loc2 = ("#navbar ." + temp).toLowerCase();
-          $(loc2).css('text-decoration', 'none');
-        }
-
-        if (scroll_pos > top_sponsors) {
-          $('#navbar .sponsors').css('text-decoration', 'underline');
-        }
-        else if (scroll_pos > top_faq) {
-          $('#navbar .faq').css('text-decoration', 'underline');
-        }
-        else if (scroll_pos > top_schedule) {
-          $('#navbar .schedule').css('text-decoration', 'underline');
-        }
-        else if (scroll_pos > top_about) {
-          $('#navbar .about').css('text-decoration', 'underline');
-        }
-        else {
-          $('#navbar .hero').css('text-decoration', 'underline');
-        }
-
-        // change navbar color depending on background
-        if (scroll_pos > top_sponsors) {
-          $("#navbar a").css('color', '#14184b');
-        } else {
-          $("#navbar a").css('color', 'white');
-        }
-      });
-
-      // mouse underlines when hovering over navbar
-      $(document).mouseover(function () {
-        $("#navbar a:hover").css('text-decoration', 'underline');
-      });
-      $(document).mouseout(function () {
-        $("#navbar a").css('text-decoration', 'none');
-        if (scroll_pos > top_sponsors) {
-          $('#navbar .sponsors').css('text-decoration', 'underline');
-        }
-        else if (scroll_pos > top_faq) {
-          $('#navbar .faq').css('text-decoration', 'underline');
-        }
-        else if (scroll_pos > top_schedule) {
-          $('#navbar .schedule').css('text-decoration', 'underline');
-        }
-        else if (scroll_pos > top_about) {
-          $('#navbar .about').css('text-decoration', 'underline');
-        }
-        else {
-          $('#navbar .hero').css('text-decoration', 'underline');
-        }
-      });
-    });
-  </script>
 </head>
 
 
@@ -126,19 +45,19 @@
 
   <section id="about">
     <div class="container">
-      <h1 class="section__title" style="font-size: 52px">Who Are We</h1>
+      <h1 class="section__title">Who Are We</h1>
       <div class="about__content">
         <div class="inner">
-          <p style="font-size: 28px">BigRed//Hacks is the oldest student-run, large-scale hackathon at Cornell
+          <p>BigRed//Hacks is the oldest student-run, large-scale hackathon at Cornell
             University.</p>
-          <p style="font-size: 28px">Across three days, Cornell and non-Cornell students alike gather to build the
+          <p>Across three days, Cornell and non-Cornell students alike gather to build the
             coolest and most innovative
             projects, meet amazing people, and win some prizes along the way!</p>
-          <a href="https://apply.bigredhacks.com/" class="is-bold" style="font-size: 28px">Interested in attending?
+          <a href="https://apply.bigredhacks.com/" class="is-bold">Interested in attending?
             Apply here!</a>
         </div>
         <div class="inner">
-          <img src="assets/bear+trees.png">
+          <img alt="Bear and trees graphic" src="assets/bear+trees.png">
         </div>
       </div>
 
@@ -147,35 +66,36 @@
 
   <section id="schedule">
     <div class="container">
-      <h1 class="section__title" style="font-size: 52px">Event Schedule</h1>
-      <img src="assets/trees.png">
+      <h1 class="section__title">Event Schedule</h1>
+        <p>Coming Soon!</p>
+      <img alt="Trees graphic" src="assets/trees.png">
     </div>
   </section>
 
   <section id="faq">
     <div class="container">
-      <h1 class="section__title" style="font-size: 52px">Frequently Asked Questions</h1>
+      <h1 class="section__title">Frequently Asked Questions</h1>
       <div class="faq__container">
         <div class="inner">
           <div class="faq__single">
-            <p class="question is-bold" style="font-size: 24px">Who is eligible to participate?</p>
-            <p class="answer" style="font-size: 18px">We are inviting all undergraduate and graduate students to
+            <p class="question is-bold">Who is eligible to participate?</p>
+            <p class="answer">We are inviting all undergraduate and graduate students to
               participate in our hackathon.
               You don't need any past experience. You don't even need to be a computer science major! Our only
               requirement is that you are at least 18 years old and enrolled in an accredited college or university.
             </p>
           </div>
           <div class="faq__single">
-            <p class="question is-bold" style="font-size: 24px">What will I need to bring? </p>
-            <p class="answer" style="font-size: 18px">Bring your school ID for registration. You are also responsible
+            <p class="question is-bold">What will I need to bring? </p>
+            <p class="answer">Bring your school ID for registration. You are also responsible
               for bringing any equipment
               for building and demoing your hack: laptop, chargers, phones, etc. You may also want to bring a sleeping
               bag, change of clothes, and toothbrush.
             </p>
           </div>
           <div class="faq__single">
-            <p class="question is-bold" style="font-size: 24px">Do I need to sign up with a team?</p>
-            <p class="answer" style="font-size: 18px">You don't have to sign up with a team, but it's certainly more
+            <p class="question is-bold">Do I need to sign up with a team?</p>
+            <p class="answer">You don't have to sign up with a team, but it's certainly more
               fun! We allow teams of up
               to four people (they don't have to be from the same school), and while they can be specified on the
               application, you won't officially, create your team until the event. If you don't have a team yet, we'll
@@ -183,8 +103,8 @@
             </p>
           </div>
           <div class="faq__single">
-            <p class="question is-bold" style="font-size: 24px">How does travel reimbursement work?</p>
-            <p class="answer" style="font-size: 18px">At this time, we are unsure about how much travel, reimbursement
+            <p class="question is-bold">How does travel reimbursement work?</p>
+            <p class="answer">At this time, we are unsure about how much travel, reimbursement
               we will be able to offer.
               We currently have bus routes for the following schools: Buffalo, RIT,
               Princeton, Rutgers, and Binghamton. Depending on our budget and interest from other schools, we may be
@@ -196,36 +116,36 @@
 
         <div class="inner">
           <div class="faq__single">
-            <p class="question is-bold" style="font-size: 24px">Are hardware hacks allowed?</p>
-            <p class="answer" style="font-size: 18px">We will be providing a dedicated hardware lab with
+            <p class="question is-bold">Are hardware hacks allowed?</p>
+            <p class="answer">We will be providing a dedicated hardware lab with
               sensors, microcontrollers, and basic components. Some of our sponsors are bringing hardware to loan, but
               we still suggest that you bring your own equipment if you know that you'll absolutely need it.</p>
           </div>
           <div class="faq__single">
-            <p class="question is-bold" style="font-size: 24px">What are the rules?</p>
-            <p class="answer" style="font-size: 18px">We will be providing a dedicated hardware lab with
+            <p class="question is-bold">What are the rules?</p>
+            <p class="answer">We will be providing a dedicated hardware lab with
               sensors, microcontrollers, and basic components. Some of our sponsors are bringing hardware to loan, but
               we still suggest that you bring your own equipment if you 'know that you'll absolutely
             </p>
           </div>
           <div class="faq__single">
-            <p class="question is-bold" style="font-size: 24px">Why is there an application?</p>
-            <p class="answer" style="font-size: 18px">We will be providing a dedicated hardware lab with
+            <p class="question is-bold">Why is there an application?</p>
+            <p class="answer">We will be providing a dedicated hardware lab with
               sensors, microcontrollers, and basic components. Some of our sponsors are bringing hardware to loan, but
               we still suggest that you bring your own equipment if you know that you'll absolutely need it.</p>
           </div>
           <div class="faq__single">
-            <p class="question is-bold" style="font-size: 24px">Are you providing food?</p>
-            <p class="answer" style="font-size: 18px"> Don't worry, there will be lots of delicious food and beverages
+            <p class="question is-bold">Are you providing food?</p>
+            <p class="answer"> Don't worry, there will be lots of delicious food and beverages
               at our event,
               complimentary to all participants. We'll have vegetarian options as well.
             </p>
           </div>
           <div class="faq__single">
-            <p class="question is-bold" style="font-size: 24px">Have more questions?</p>
-            <p class="answer" style="font-size: 18px">Send them to info@bigredhacks.com!</p>
+            <p class="question is-bold">Have more questions?</p>
+            <p class="answer">Send them to info@bigredhacks.com!</p>
           </div>
-          <img src="assets/planets.png">
+          <img alt="Planets graphic" src="assets/planets.png">
         </div>
       </div>
     </div>
@@ -233,20 +153,22 @@
 
   <section id="sponsors">
     <div class="container">
-      <h1 class="section__title" style="font-size: 64px">Sponsors</h1>
-
+      <h1 class="section__title">Sponsors</h1>
+      <div class="sponsors__area">
+        <a href="https://www.theforage.com/">
+          <img alt="Forage Logo" class="sponsor" src="assets/sponsors/forage.png">
+        </a>
+      </div>
       <div class="sponsors__callout">
-        <p style="padding-bottom:250px">
-        <h2 class="is-bold" style="font-size: 44px">Want to sponsor us?</h2>
-        <p style="font-size: 24px">We're still accepting sponsors for our 2021 event!</p>
-        <p style="font-size: 24px"> Send us an email at <a class="is-bold"
-            href="mailto: info@bigredhacks.com">info@bigredhacks.com</a></p>
+        <h2 class="is-bold">Want to sponsor us?</h2>
+        <p>We're still accepting sponsors for our 2021 event!</p>
+        <p> Send us an email at <a class="is-bold" href="mailto: info@bigredhacks.com">info@bigredhacks.com</a></p>
       </div>
     </div>
   </section>
 
   <div id="footer">
-    <div class="footer-img"><img src="assets/logo.png"></div>
+    <div class="footer-img"><img alt="BRH logo" src="assets/logo.png"></div>
     <div class="btn-social-group">
       <a class="btn btn-social" href="https://facebook.com/bigredhacks" target="_blank"><i
           class="fa fa-facebook"></i></a>
@@ -254,10 +176,11 @@
           aria-hidden="true"></i></a>
       <a class="btn btn-social" href="mailto: info@bigredhacks.com" target="_blank"><i class="fa fa-envelope"
           aria-hidden="true"></i></a>
-      <p style="font-size: 22px">Made with 🤍 from the BigRed//Hacks team</p>
-      <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" style="font-size: 22px">MLH Code of Conduct</a>
+      <p>Made with 🤍 from the BigRed//Hacks team</p>
+      <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">MLH Code of Conduct</a>
     </div>
   </div>
+  <script src="scripts/index.js"></script>
 </body>
 
 </html>
