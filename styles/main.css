@@ -61,7 +61,7 @@ h2 {
 }
 
 #hero {
-  background-image: url(../assets/main.png);
+  background-image: url(../assets/main2.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -94,6 +94,23 @@ h2 {
 #about .about__content .inner img {
   width: 80%;
   float: right;
+}
+#about .previous__spotlight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 5rem;
+}
+#about .previous__spotlight .previous__image {
+  width: 33%;
+}
+#about .previous__spotlight .previous__image img {
+  max-width: 100%;
+  width: 90%;
+  padding: 20px;
 }
 
 #schedule {

@@ -70,7 +70,7 @@ h2 {
 }
 
 #hero {
-  background-image: url(../assets/main.png);
+  background-image: url(../assets/main2.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -80,7 +80,6 @@ h2 {
 #about {
   background-color: $red;
   color: white;
-
   .about__content {
     display: flex;
     align-items: center;
@@ -101,6 +100,23 @@ h2 {
       img {
         width: 80%;
         float: right;
+      }
+    }
+  }
+  .previous__spotlight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 5rem;
+    .previous__image {
+      width: 33%;
+      img {
+        max-width: 100%;
+        width: 90%;
+        padding: 20px;
       }
     }
   }
