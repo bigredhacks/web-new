@@ -10,6 +10,10 @@
   font-weight: bold;
   font-style: normal;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -118,9 +122,26 @@ h2 {
   color: white;
   min-height: 60vh;
 }
-#schedule p {
-  font-weight: bold;
+#schedule .schedule__container {
+  margin: 1rem;
+  display: flex;
+}
+#schedule .schedule__container .schedule__day {
+  flex-grow: 1;
+  font-size: 18px;
+}
+#schedule .schedule__container .schedule__day .day {
   font-size: 22px;
+  font-weight: bold;
+}
+#schedule .schedule__container .schedule__day table {
+  width: 100%;
+}
+#schedule .schedule__container .schedule__day table tr th {
+  text-align: initial;
+}
+#schedule .schedule__container .schedule__day table tr td {
+  padding: 0.6rem 0;
 }
 #schedule img {
   max-height: 125px;
@@ -216,6 +237,14 @@ h2 {
   font-size: 1.5rem;
 }
 
+@media only screen and (max-width: 55em) {
+  .schedule__container {
+    flex-direction: column;
+  }
+  .schedule__container .schedule__day {
+    margin-bottom: 1rem;
+  }
+}
 @media only screen and (max-width: 37.5em) {
   .container {
     padding: 5rem 3rem;
