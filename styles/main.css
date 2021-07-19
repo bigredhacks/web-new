@@ -14,10 +14,12 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+body,
+html {
   margin: 0;
   padding: 0;
   font-family: "Eina", sans-serif;
+  clear: both;
 }
 
 section h1 {
@@ -65,7 +67,7 @@ h2 {
 }
 
 #hero {
-  background-image: url(../assets/main2.png);
+  background-image: url(../assets/main.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -250,6 +252,14 @@ h2 {
     padding: 5rem 3rem;
   }
 
+  #navbar {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  #navbar a {
+    padding: 0.8rem;
+  }
+
   .section__title {
     font-weight: bold;
     font-size: 2rem;
@@ -264,6 +274,14 @@ h2 {
 .about__content .inner {
     width: 100% !important;
     margin: 0 !important;
+  }
+
+  .previous__spotlight .previous__image {
+    width: 100% !important;
+  }
+
+  #sponsors .sponsors__area .sponsor {
+    max-width: 100%;
   }
 }
 
