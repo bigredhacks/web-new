@@ -95,7 +95,7 @@ h2 {
 }
 #about .about__content .inner a,
 #about .about__content .inner p {
-  font-size: 28px;
+  font-size: 24px;
 }
 #about .about__content .inner img {
   width: 80%;
@@ -189,12 +189,13 @@ h2 {
 }
 #sponsors .sponsors__area {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
-  justify-content: center;
+  justify-content: space-between;
   margin: 5rem 0 10rem;
 }
 #sponsors .sponsors__area .sponsor {
-  max-width: 25rem;
+  max-width: 23rem;
 }
 #sponsors .sponsors__callout {
   text-align: center;
@@ -246,6 +247,14 @@ h2 {
   .schedule__container .schedule__day {
     margin-bottom: 1rem;
   }
+
+  .sponsors__area {
+    flex-direction: column;
+    text-align: center;
+  }
+  .sponsors__area .sponsor {
+    margin-bottom: 1.5rem;
+  }
 }
 @media only screen and (max-width: 37.5em) {
   .container {
@@ -280,8 +289,8 @@ h2 {
     width: 100% !important;
   }
 
-  #sponsors .sponsors__area .sponsor {
-    max-width: 100%;
+  .sponsors__area .sponsor {
+    max-width: 100% !important;
   }
 }
 

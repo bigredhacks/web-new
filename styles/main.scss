@@ -101,7 +101,7 @@ h2 {
       }
       a,
       p {
-        font-size: 28px;
+        font-size: 24px;
       }
       img {
         width: 80%;
@@ -203,11 +203,12 @@ h2 {
   }
   .sponsors__area {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    justify-content: center;
+    justify-content: space-between;
     margin: 5rem 0 10rem;
     .sponsor {
-      max-width: 25rem;
+      max-width: 23rem;
     }
   }
   .sponsors__callout {
@@ -261,6 +262,13 @@ h2 {
       margin-bottom: 1rem;
     }
   }
+  .sponsors__area {
+    flex-direction: column;
+    text-align: center;
+    .sponsor {
+      margin-bottom: 1.5rem;
+    }
+  }
 }
 
 @media only screen and (max-width: 37.5em) {
@@ -290,7 +298,7 @@ h2 {
   .previous__spotlight .previous__image {
     width: 100% !important;
   }
-  #sponsors .sponsors__area .sponsor {
-    max-width: 100%;
+  .sponsors__area .sponsor {
+    max-width: 100% !important;
   }
 }
