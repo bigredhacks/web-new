@@ -75,11 +75,15 @@ h2 {
   font-weight: bold;
 }
 
+.disabled{
+  display: none;
+}
+
 #hero {
   background-image: url(../assets/main.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 83% 50%;
   min-height: 100vh;
 }
 
