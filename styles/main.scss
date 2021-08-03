@@ -58,12 +58,13 @@ h2 {
   overflow: hidden;
   position: fixed;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex;
   top: 0;
   width: 100%;
   z-index: 10;
   margin-top: 0.5rem;
   font-size: 1.05rem;
+  max-width: calc(100% - 80px);
   a {
     color: #fff;
     padding: 14px 16px;
