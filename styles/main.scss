@@ -21,6 +21,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.link{
+  color: #8bcbe0;
+}
+
 body,
 html {
   margin: 0;
@@ -284,7 +288,7 @@ h2 {
     flex-wrap: wrap;
     justify-content: flex-start;
     a {
-      padding: 0.8rem;
+      padding: 0.5rem;
     }
   }
   .section__title {
@@ -305,5 +309,9 @@ h2 {
   }
   .sponsors__area .sponsor {
     max-width: 100% !important;
+  }
+  #hero {
+    background-image: url(../assets/mobile-hero.png);
+    background-position: center;
   }
 }
