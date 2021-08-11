@@ -263,9 +263,7 @@
           </div>
           <div class="faq__single">
             <p class="question is-bold">Are hardware hacks allowed?</p>
-            <p class="answer">We will be providing a dedicated hardware lab with
-              sensors, microcontrollers, and basic components. Some of our sponsors are bringing hardware to loan, but
-              we still suggest that you bring your own equipment if you know that you'll absolutely need it.</p>
+            <p class="answer">Unfortunately, we will not be able to have a hardware lab this year. However, hardware hacks will still be permitted, as long as you furnish your own equipment.</p>
           </div>
           <div class="faq__single">
             <p class="question is-bold">How does travel reimbursement work?</p>
@@ -278,7 +276,7 @@
           <div class="faq__single">
             <p class="question is-bold">Are you providing food?</p>
             <p class="answer"> Don't worry, there will be lots of delicious food and beverages
-              at our event, complimentary to all participants. We'll have vegetarian options as well. </p>
+              at our event, complimentary to all in-person participants. We'll have vegetarian options as well. </p>
           </div>
           <div class="faq__single">
             <p class="question is-bold">Have more questions?</p>
