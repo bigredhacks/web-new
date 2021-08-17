@@ -215,9 +215,24 @@ h2 {
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-between;
-    margin: 5rem 0 10rem;
+    margin: 0 0 5rem;
+    .row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;  
+      .col {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+        text-align: center;
+        margin-top: 6rem;
+        margin-bottom: 2rem;
+      }
+    }
     .sponsor {
-      max-width: 23rem;
+      max-width: 80%;
     }
   }
   .sponsors__callout {
@@ -272,11 +287,15 @@ h2 {
     }
   }
   .sponsors__area {
-    flex-direction: column;
+    // flex-direction: column;
     text-align: center;
-    .sponsor {
-      margin-bottom: 1.5rem;
+    .row {
+      display: block !important;
+      .sponsor {
+        margin-bottom: 1.5rem;
+      }
     }
+    
   }
 }
 
@@ -307,8 +326,8 @@ h2 {
   .previous__spotlight .previous__image {
     width: 100% !important;
   }
-  .sponsors__area .sponsor {
-    max-width: 100% !important;
+  .sponsors__area .row {
+    display: block !important;
   }
   #hero {
     background-image: url(../assets/mobile-hero.png);
