@@ -252,7 +252,7 @@
           <div class="faq__single">
             <p class="question is-bold">What are the rules?</p>
             <p class="answer">Detailed hack specific rules will be coming out closer to the event, but generally all
-              hacks must be safe, must follow the MLH code of conduct, and should follow the theme of the event, where
+              hacks must be safe, must follow the <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target=_blank>MLH Code of Conduct</a>, and should follow the theme of the event, where
               applicable. More details coming soon.
             </p>
           </div>
