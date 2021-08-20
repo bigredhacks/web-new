@@ -330,6 +330,11 @@
               <img alt="GCP Logo" class="sponsor" src="assets/sponsors/gcp.png">
             </a>
           </div>
+		  <div class="col">
+            <a href="http://hackp.ac/mlh-stickermule-hackathons" target=_blank>
+              <img alt="Sticker Mule Logo" class="sponsor" src="assets/sponsors/sticker-mule-logo-light.png">
+            </a>
+          </div>
         </div>
 
       </div>
