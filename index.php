@@ -45,7 +45,7 @@
     <a href="#schedule" class="navbar-item schedule">Schedule</a>
     <a href="#faq" class="navbar-item faq">FAQ</a>
     <a href="#sponsors" class="navbar-item sponsors">Sponsors</a>
-    <a href=" https://apply.bigredhacks.com/" target=_blank class="disabled navbar-item is-bold apply">Apply</a>
+    <a href="https://apply.bigredhacks.com/" target=_blank class="navbar-item is-bold apply">Apply</a>
   </div>
 
   <section id="hero"></section>
@@ -61,9 +61,9 @@
             coolest and most innovative
             projects, meet amazing people, and win some prizes along the way!</p>
           <br>
-          <p>Applications Open Soon! <a target="_blank" href="https://forms.gle/SkpiSVALfxUyKnVf6"
-              class="is-bold link">Get Notified</a></p>
-          <a href="https://apply.bigredhacks.com/" class="disabled is-bold">Interested in attending?
+          <!--<p>Applications Open Soon! <a target="_blank" href="https://forms.gle/SkpiSVALfxUyKnVf6"
+              class="is-bold link">Get Notified</a></p>-->
+          <a href="https://apply.bigredhacks.com/" class="is-bold">Interested in attending?
             Apply here!</a>
         </div>
         <div class="inner">
