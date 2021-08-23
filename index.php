@@ -63,7 +63,7 @@
           <br>
           <!--<p>Applications Open Soon! <a target="_blank" href="https://forms.gle/SkpiSVALfxUyKnVf6"
               class="is-bold link">Get Notified</a></p>-->
-          <a href="https://apply.bigredhacks.com/" class="is-bold">Interested in attending?
+          <a href="https://apply.bigredhacks.com/" target=_blank class="is-bold">Interested in attending?
             Apply here!</a>
         </div>
         <div class="inner">
