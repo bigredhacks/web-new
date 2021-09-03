@@ -65,7 +65,7 @@
               class="is-bold link">Get Notified</a></p>-->
           <a href="https://apply.bigredhacks.com/" target=_blank class="is-bold">Interested in attending?
             Apply here!</a>
-          <p>Applications close 9/13/21 at 5 PM Eastern Time</p>
+          <p>First Application Deadline: 9/3/21 at 5 PM Eastern Time<br>Second Application Deadline: 9/13/21 at 5 PM Eastern Time<br>Applications sent by first deadline given priority.</p>
         </div>
         <div class="inner">
           <img alt="Bear and trees graphic" src="assets/bear+trees.png">
