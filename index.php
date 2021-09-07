@@ -139,7 +139,7 @@
               </tr>
               <tr>
                 <td>9:00 AM</td>
-                <td>Bebe Lake Nature Walk</td>
+                <td>Beebe Lake Nature Walk</td>
               </tr>
               <tr>
                 <td>12:00 PM</td>
@@ -159,7 +159,7 @@
               </tr>
               <tr>
                 <td>9:00 PM</td>
-                <td>Suprise Event</td>
+                <td>Surprise Event</td>
               </tr>
               <tr>
                 <td>11:00 PM</td>
