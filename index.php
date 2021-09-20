@@ -46,7 +46,7 @@
     <a href="#speakers" class="navbar-item speakers">Speakers</a>
     <a href="#faq" class="navbar-item faq">FAQ</a>
     <a href="#sponsors" class="navbar-item sponsors">Sponsors</a>
-    <a href="https://apply.bigredhacks.com/" target=_blank class="navbar-item is-bold apply">Apply</a>
+    <a href="https://apply.bigredhacks.com/login" target=_blank class="navbar-item is-bold apply">Login</a>
   </div>
 
   <section id="hero"></section>
@@ -64,9 +64,10 @@
           <br>
           <!--<p>Applications Open Soon! <a target="_blank" href="https://forms.gle/SkpiSVALfxUyKnVf6"
               class="is-bold link">Get Notified</a></p>-->
-          <a href="https://apply.bigredhacks.com/" target=_blank class="is-bold">Interested in attending?
-            Apply here!</a>
-          <p>First Application Deadline: 9/3/21 at 5 PM Eastern Time<br>Second Application Deadline: 9/10/21 at 5 PM Eastern Time<br>Applications sent by first deadline given priority.</p>
+          <!-- <a href="https://apply.bigredhacks.com/" target=_blank class="is-bold">Interested in attending?
+            Apply here!</a> -->
+          <!-- <p>First Application Deadline: 9/3/21 at 5 PM Eastern Time<br>Second Application Deadline: 9/10/21 at 5 PM Eastern Time<br>Applications sent by first deadline given priority.</p> -->
+          <p> Applications have closed for 2021 BigRed//Hacks. </p>
         </div>
         <div class="inner">
           <img alt="Bear and trees graphic" src="assets/bear+trees.png">
