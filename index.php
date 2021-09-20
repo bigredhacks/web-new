@@ -43,6 +43,7 @@
     <a href="#hero" class="navbar-item hero">Home</a>
     <a href="#about" class="navbar-item about">About</a>
     <a href="#schedule" class="navbar-item schedule">Schedule</a>
+    <a href="#speakers" class="navbar-item speakers">Speakers</a>
     <a href="#faq" class="navbar-item faq">FAQ</a>
     <a href="#sponsors" class="navbar-item sponsors">Sponsors</a>
     <a href="https://apply.bigredhacks.com/" target=_blank class="navbar-item is-bold apply">Apply</a>
@@ -209,6 +210,50 @@
     </div>
   </section>
 
+
+  <section id="speakers">
+    <div class="container">
+      <h1 class="section__title">Speakers</h1>
+      <div class="speakers__container">
+        <div class="inner">
+        <img alt="Scott Russo" src="assets/Russo.jpg">
+
+          <div class="speaker__single">
+            <br \>
+            <p class="name is-bold">Scott Russo, Founder & Managing Partner Dasein Capital</p>
+            <p class="introduction">Early in his career, Scott worked in the corporate venture incubator at 
+              Bell Labs (Lucent Technologies), partnering with top engineers to launch startups around
+              leading edge innovations. Scott was also Co-Founder and CEO of Augme Mobile, and after a
+              successful strategic sale in 2009, served as COO of the acquiring company for one year.
+              Scott then launched the flagship fund of Mogility Capital, and joined the Founding team
+              at AdTheorent as COO & CFO.  He is a career entrepreneur and selective startup investor
+              who has focused on machine learning, data science, mobile applications & new media.</p>
+          </div>
+
+        </div>
+      <div class="inner">
+      <img alt="Philip Kearney" src="assets/Kearney.gif">
+          <div class="speaker__single">
+            <br \>
+            <p class="name is-bold">Philip Kearney, CEO SymetryML</p>
+            <p class="introduction">Philip Kearney has spent over 25 years in digital media and technology
+              working hands-on with over two hundred and fifty Fortune 500, mid-sized companies, and
+              ventures, shepherding them through complex and challenging situations to modernize,
+              recharacterize and rejuvenate businesses.  Philip served as SVP / GM of American Media
+              where he digitized the tabloids as well as re-launched RadarOnline, which won national
+              awards for its reporting.  He also held positions as Chief Product Officer for Russell
+              Simmons’ Global Grind and been an executive advisor to CNN, The Recording Academy,
+              Inc./Fast Company and NBC Regional Sports Network designing and leading modernization
+              projects and growth initiatives.  Currently, Philip is the CEO of SymetryML, a new venture
+              focused upon using high-speed, real-time machine learning for data mining and predictive
+              analytics on massive data sets for first mover advantage in finance, healthcare, security
+              and logistics.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section id="faq">
     <div class="container">
       <h1 class="section__title">Frequently Asked Questions</h1>
@@ -216,13 +261,12 @@
         <div class="inner">
           <div class="faq__single">
             <p class="question is-bold">What are your protocols for COVID-19?</p>
-            <p class="answer">BigRed//Hacks will be an in-person event to the fullest extent that CDC, New York State,
-              and Cornell University guidelines permit. We expect to be able to accept all vaccinated Cornell students
-              in person, and are working towards accepting all vaccinated students from other colleges in the US as
-              well. We will keep you up to date as soon as we know who will be able to attend in person. Fear not, as
-              the event will be fully hybrid, and allow for a full experience virtually as well. So even if you can't or
-              feel uncomfortable attending in-person, there will be a full online component to the event for you to
-              participate in.</p>
+            <p class="answer">BigRed//Hacks is a hybrid event. If you are a Cornell Student, you 
+              will be welcome to attend in-person. However, for all other universities, your hackathon 
+              experience will be limited to an online only experience due to COVID-19 restrictions. 
+              Online attendees will have access to unique workshops and experiences, as well as virtual 
+              components of our in-person events.
+            </p>
           </div>
           <div class="faq__single">
             <p class="question is-bold">Who is eligible to participate?</p>
@@ -274,11 +318,8 @@
           </div>
           <div class="faq__single">
             <p class="question is-bold">How does travel reimbursement work?</p>
-            <p class="answer">Unfortunately, we unable to provide travel reimbursements or busses for 2021. The
-              in-person component of BigRed//Hacks is expected to be more heavily weighted towards Cornell students due
-              to COVID-19 restrictions. Where travel is a burden or impossibility, our event will feature a fully online
-              component with similar experiences to those found in-person. So fear not, you can have a similar hackathon
-              experience virtually!</p>
+            <p class="answer">Since BigRed//Hacks will be in-person for Cornell students only and virtual for 
+              everyone else, there will be no travel reimbursements this year.</p>
           </div>
           <div class="faq__single">
             <p class="question is-bold">Are you providing food?</p>
@@ -294,6 +335,7 @@
       </div>
     </div>
   </section>
+  
   <section id="sponsors">
     <div class="container">
       <h1 class="section__title">Sponsors</h1>
@@ -301,9 +343,11 @@
         <div class="row">
           <div class="col">
             <a href="https://www.munichre.com/en.html" target=_blank>
-              <img alt="Munich RE Logo" class="sponsor" src="assets/sponsors/munich-re.png">
+              <img alt="Munich RE Logo" class="sponsor" src="assets/sponsors/munich-re.png" width=65%>
             </a>
           </div>
+        </div>
+        <div class="row">
           <div class="col">
             <a href="https://www.bloomberg.com/" target=_blank>
               <img alt="Bloomberg Logo" class="sponsor" src="assets/sponsors/bloomberg--logo.png">
@@ -317,8 +361,8 @@
         </div>
         <div class="row">
           <div class="col">
-            <a href="https://mlh.io/" target=_blank>
-              <img alt="MLH Logo" class="sponsor" src="assets/sponsors/mlh-logo-color.png">
+            <a href="https://www.grammatech.com/" target=_blank>
+              <img alt="GrammaTech Logo" class="sponsor" src="assets/sponsors/grammatech.png">
             </a>
           </div>
           <div class="col">
@@ -356,6 +400,13 @@
           <div class="col">
             <a href="https://www.theforage.com/forage-for-funds/cornell-big-red-hacks" target=_blank>
               <img alt="Forage Logo" class="sponsor" src="assets/sponsors/forage.png">
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <a href="https://mlh.io/" target=_blank>
+              <img alt="MLH Logo" class="sponsor" src="assets/sponsors/mlh-logo-color.png" width=18%>
             </a>
           </div>
         </div>

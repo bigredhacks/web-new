@@ -104,7 +104,7 @@ h2 {
 }
 #about .about__content .inner a,
 #about .about__content .inner p {
-  font-size: 24px;
+  font-size: 22px;
 }
 #about .about__content .inner img {
   width: 80%;
@@ -159,6 +159,34 @@ h2 {
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+#speakers .speakers__container {
+  display: flex;
+  color: #14184b;
+}
+#speakers .section__title {
+  color: #14184b;
+}
+#speakers .speakers__container .inner {
+  width: 50%;
+  margin: 1rem 2.5rem;
+}
+#speakers .speakers__container .inner .speaker__single{
+  margin-bottom: 1.7rem;
+  clear:left;
+  
+}
+#speakers .speakers__container .inner .speaker__single .name {
+  font-size: 26px;
+}
+#speakers .speakers__container .inner .speaker__single .introduction {
+  line-height: 1.8;
+  font-size: 18px;
+}
+#speakers .speakers__container .inner img {
+  float: left;
+  max-width: 80%;
 }
 
 #faq {
