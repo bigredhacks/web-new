@@ -343,9 +343,11 @@
         <div class="row">
           <div class="col">
             <a href="https://www.munichre.com/en.html" target=_blank>
-              <img alt="Munich RE Logo" class="sponsor" src="assets/sponsors/munich-re.png">
+              <img alt="Munich RE Logo" class="sponsor" src="assets/sponsors/munich-re.png" width=65%>
             </a>
           </div>
+        </div>
+        <div class="row">
           <div class="col">
             <a href="https://www.bloomberg.com/" target=_blank>
               <img alt="Bloomberg Logo" class="sponsor" src="assets/sponsors/bloomberg--logo.png">
@@ -354,11 +356,6 @@
           <div class="col">
             <a href="https://www.wayfair.com/" target=_blank>
               <img alt="Wayfair Logo" class="sponsor" src="assets/sponsors/wayfair-logo.png">
-            </a>
-          </div>
-          <div class="col">
-            <a href="https://mlh.io/" target=_blank>
-              <img alt="MLH Logo" class="sponsor" src="assets/sponsors/mlh-logo-color.png">
             </a>
           </div>
         </div>
@@ -403,6 +400,13 @@
           <div class="col">
             <a href="https://www.theforage.com/forage-for-funds/cornell-big-red-hacks" target=_blank>
               <img alt="Forage Logo" class="sponsor" src="assets/sponsors/forage.png">
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <a href="https://mlh.io/" target=_blank>
+              <img alt="MLH Logo" class="sponsor" src="assets/sponsors/mlh-logo-color.png" width=18%>
             </a>
           </div>
         </div>
