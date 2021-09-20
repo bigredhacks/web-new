@@ -8,6 +8,7 @@ $(document).ready(function () {
   var top_about = $('#about').offset().top - 25;
   var top_schedule = $('#schedule').offset().top - 25;
   var top_faq = $('#faq').offset().top - 25;
+  var top_speakers = $('#speakers').offset().top - 25;
   var top_sponsors = $('#sponsors').offset().top - 25;
   var all_items = document.getElementsByClassName('navbar-item');
 
@@ -15,6 +16,7 @@ $(document).ready(function () {
     $(window).on('resize', function () {
       top_about = $('#about').offset().top - 25;
       top_schedule = $('#schedule').offset().top - 25;
+      top_speakers = $('#speakers').offset().top - 25;
       top_faq = $('#faq').offset().top - 25;
       top_sponsors = $('#sponsors').offset().top - 25;
     });
@@ -36,6 +38,9 @@ $(document).ready(function () {
     else if (scroll_pos > top_faq) {
       $('#navbar .faq').css('text-decoration', 'underline');
     }
+    else if (scroll_pos > top_speakers) {
+      $('#navbar .speakers').css('text-decoration', 'underline');
+    }
     else if (scroll_pos > top_schedule) {
       $('#navbar .schedule').css('text-decoration', 'underline');
     }
@@ -47,7 +52,7 @@ $(document).ready(function () {
     }
 
     // change navbar color depending on background
-    if (scroll_pos > top_sponsors) {
+    if (scroll_pos > top_sponsors || (scroll_pos > top_speakers && scroll_pos < top_faq)) {
       $("#navbar a").css('color', '#14184b');
     } else {
       $("#navbar a").css('color', 'white');
@@ -65,6 +70,9 @@ $(document).ready(function () {
     }
     else if (scroll_pos > top_faq) {
       $('#navbar .faq').css('text-decoration', 'underline');
+    }
+    else if (scroll_pos > top_speakers) {
+      $('#navbar .speakers').css('text-decoration', 'underline');
     }
     else if (scroll_pos > top_schedule) {
       $('#navbar .schedule').css('text-decoration', 'underline');
