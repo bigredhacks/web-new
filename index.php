@@ -216,7 +216,10 @@
       <h1 class="section__title">Speakers</h1>
       <div class="speakers__container">
         <div class="inner">
+        <img alt="Scott Russo" src="assets/Russo.jpg">
+
           <div class="speaker__single">
+            <br \>
             <p class="name is-bold">Scott Russo, Founder & Managing Partner Dasein Capital</p>
             <p class="introduction">Early in his career, Scott worked in the corporate venture incubator at 
               Bell Labs (Lucent Technologies), partnering with top engineers to launch startups around
@@ -226,10 +229,12 @@
               at AdTheorent as COO & CFO.  He is a career entrepreneur and selective startup investor
               who has focused on machine learning, data science, mobile applications & new media.</p>
           </div>
-          <img alt="Scott Russo" src="assets/Russo.jpg">
+
         </div>
       <div class="inner">
+      <img alt="Philip Kearney" src="assets/Kearney.gif">
           <div class="speaker__single">
+            <br \>
             <p class="name is-bold">Philip Kearney, CEO SymetryML</p>
             <p class="introduction">Philip Kearney has spent over 25 years in digital media and technology
               working hands-on with over two hundred and fifty Fortune 500, mid-sized companies, and
@@ -244,7 +249,6 @@
               analytics on massive data sets for first mover advantage in finance, healthcare, security
               and logistics.</p>
           </div>
-          <img alt="Philip Kearney" src="assets/Kearney.gif">
         </div>
       </div>
     </div>
