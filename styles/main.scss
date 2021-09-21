@@ -348,14 +348,9 @@ h2 {
     font-size: 2rem;
     color: white;
   }
+  
   .faq__container,
-  .about__content {
-    flex-direction: column;
-    .inner {
-      width: 100% !important;
-      margin: 0 !important;
-    }
-  }
+  .about__content,
   .speakers__container {
     flex-direction: column;
     .inner {
