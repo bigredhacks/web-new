@@ -137,7 +137,7 @@
               </tr>
               <tr>
                 <td>8:00 AM</td>
-                <td>Midnight Snack</td>
+                <td>Breakfast</td>
               </tr>
               <tr>
                 <td>9:00 AM</td>
