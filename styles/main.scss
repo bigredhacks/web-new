@@ -356,6 +356,13 @@ h2 {
       margin: 0 !important;
     }
   }
+  .speakers__container {
+    flex-direction: column;
+    .inner {
+      width: 100% !important;
+      margin: 0 !important;
+    }
+  }
   .previous__spotlight .previous__image {
     width: 100% !important;
   }
