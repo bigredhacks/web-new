@@ -331,12 +331,12 @@ h2 {
 
   .speakers__container,
   .faq__container,
-.about__content {
+  .about__content {
     flex-direction: column;
   }
   .speakers__container .inner,
   .faq__container .inner,
-.about__content .inner {
+  .about__content .inner {
     width: 100% !important;
     margin: 0 !important;
   }

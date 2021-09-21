@@ -137,36 +137,6 @@ h2 {
   }
 }
 
-#speakers{ 
-  background-color: white;
-  color: #14184b;
-  .speakers__container {
-    display: flex;
-    color: #14184b;
-    .inner {
-      width: 50%;
-      margin: 1rem 2.5rem;
-      .speaker__single{
-        margin-bottom: 1.7rem;
-        clear:left;
-        .name {
-          font-size: 26px;
-        }
-        .introduction {
-          line-height: 1.8;
-          font-size: 18px;
-        }
-        img {
-          float: left;
-          max-width: 80%;
-        }
-      }    
-    }
-  }
-  .section__title {
-    color: #14184b;
-  }
-}
 
 #schedule {
   background-color: $yellow;
@@ -208,6 +178,36 @@ h2 {
 }
 
 
+#speakers{ 
+  background-color: white;
+  color: #14184b;
+  .speakers__container {
+    display: flex;
+    color: #14184b;
+    .inner {
+      width: 50%;
+      margin: 1rem 2.5rem;
+      .speaker__single{
+        margin-bottom: 1.7rem;
+        clear:left;
+        .name {
+          font-size: 26px;
+        }
+        .introduction {
+          line-height: 1.8;
+          font-size: 18px;
+        }
+      }    
+      img {
+        float: left;
+        max-width: 80%;
+      }
+    }
+  }
+  .section__title {
+    color: #14184b;
+  }
+}
 
 #faq {
   background-image: url(../assets/space_background.png);
@@ -348,7 +348,6 @@ h2 {
     font-size: 2rem;
     color: white;
   }
-  
   .faq__container,
   .about__content,
   .speakers__container {
