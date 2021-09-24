@@ -117,6 +117,10 @@
                 <td>Hacking Begins/Team Formation</td>
               </tr>
               <tr>
+                <td>9:00 PM</td>
+                <td>Munich Re Tech Talk!</td>
+              </tr>
+              <tr>
                 <td>10:00 PM</td>
                 <td>Online Social</td>
               </tr>
@@ -144,8 +148,24 @@
                 <td>Beebe Lake Nature Walk</td>
               </tr>
               <tr>
+                <td>10:30 AM</td>
+                <td>MLH CTF Competition</td>
+              </tr>
+              <tr>
+                <td>11:00 AM</td>
+                <td>Design Workshop!</td>
+              </tr>
+              <tr>
+                <td>11:15 AM</td>
+                <td>MLH Mini Game</td>
+              </tr>
+              <tr>
                 <td>12:00 PM</td>
                 <td>Lunch</td>
+              </tr>
+              <tr>
+                <td>1:00 PM</td>
+                <td>React (web) Workshop!</td>
               </tr>
               <tr>
                 <td>3:00 PM</td>
@@ -153,7 +173,7 @@
               </tr>
               <tr>
                 <td>5:00 PM</td>
-                <td>Cup Stacking</td>
+                <td>MLH Cup Stacking</td>
               </tr>
               <tr>
                 <td>7:00 PM</td>
@@ -179,7 +199,7 @@
                 <th>Event</th>
               </tr>
               <tr>
-                <td>1:00 AM</td>
+                <td>12:00 AM</td>
                 <td>Midnight Snack</td>
               </tr>
               <tr>
