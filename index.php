@@ -106,7 +106,7 @@
               </tr>
               <tr>
                 <td>6:00 PM</td>
-                <td>Opening Ceremony</td>
+                <td>Opening Ceremony (Klarman KG70)</td>
               </tr>
               <tr>
                 <td>7:00 PM</td>
@@ -153,7 +153,7 @@
               </tr>
               <tr>
                 <td>11:00 AM</td>
-                <td>Design Workshop!</td>
+                <td>Design Workshop! (PSB120)</td>
               </tr>
               <tr>
                 <td>11:15 AM</td>
@@ -165,7 +165,7 @@
               </tr>
               <tr>
                 <td>1:00 PM</td>
-                <td>React (web) Workshop!</td>
+                <td>React (web) Workshop! (PSB120)</td>
               </tr>
               <tr>
                 <td>3:00 PM</td>
@@ -216,7 +216,7 @@
               </tr>
               <tr>
                 <td>12:00 PM</td>
-                <td>Closing Ceremony</td>
+                <td>Closing Ceremony (Klarman KG70)</td>
               </tr>
               <tr>
                 <td>2:00 PM</td>
