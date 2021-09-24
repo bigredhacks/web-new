@@ -436,7 +436,7 @@
       <div class="sponsors__callout">
         <h2 class="is-bold">Want to sponsor us?</h2>
         <p>We're still accepting sponsors for our 2021 event!</p>
-        <p> Send us an email at <a class="is-bold" href="mailto:stephanie.chow@bigredhacks.com">stephanie.chow@bigredhacks.com</a></p>
+        <p> Send us an email at <a class="is-bold" href="mailto:info@bigredhacks.com">info@bigredhacks.com</a></p>
       </div>
     </div>
   </section>
