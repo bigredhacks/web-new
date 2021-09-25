@@ -152,10 +152,6 @@
                 <td>MLH CTF Competition</td>
               </tr>
               <tr>
-                <td>11:00 AM</td>
-                <td>Design Workshop! (PSB120)</td>
-              </tr>
-              <tr>
                 <td>11:15 AM</td>
                 <td>MLH Mini Game</td>
               </tr>
@@ -170,6 +166,10 @@
               <tr>
                 <td>3:00 PM</td>
                 <td>T-Shirts!</td>
+              </tr>
+              <tr>
+                <td>4:00 PM</td>
+                <td>Design Workshop! (PSB120)</td>
               </tr>
               <tr>
                 <td>5:00 PM</td>
