@@ -181,10 +181,10 @@
               </tr>
               <tr>
                 <td>9:00 PM</td>
-                <td>Surprise Event</td>
+                <td>Bowling! (@ Helen Newman)</td>
               </tr>
               <tr>
-                <td>11:00 PM</td>
+                <td>11:30 PM</td>
                 <td>Online Games</td>
               </tr>
             </tbody>
